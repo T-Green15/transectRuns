@@ -6,7 +6,7 @@
 
 source("Rsrc/settings.r")
 
-nSites <- 7
+#nSites <- 7
 siteInfo <- matrix(c(NA,NA,3,160,0,0,20,3,3,413,0.45,0.118),nSites,12,byrow = T)
 
 initVarAll <- read.csv("inputs/initVarAll.csv",header = T, row.names = 1)                                       # Loading site spesific initial values, mixed forest?
